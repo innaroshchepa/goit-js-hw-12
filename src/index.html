@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-- <load ="partials/header.html" /> -->
+
+    <section>
+      <form class="search-form" id="search-form">
+        <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." id="search-input" />
+        <button type="submit">Search</button>
+      </form>
+      <!-- <div id="loader" class="loader"></div> -->
+      <span id="loader" class="loader">Loading images, please wait...</span>
+      <!-- <div id="loader"></div> -->
+      <!-- <div id="loader">Load&nbsp;ng</div> -->
+    </section>
+    <main>
+      <div id="image-gallery" class="gallery"></div>
+    </main>
+      
+  
+    <!-- Loads the specified .html file
+    <load ="partials/vite-promo.html" /> -->
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
