@@ -47,7 +47,7 @@ searchForm.addEventListener("submit", async (event) => {
 });
 
 loadMoreBtn.addEventListener('click', async () => {
-  loadMoreBtn.setAttribute("style", "display: none;");
+  // n
   currentPage +=1;
   await fetchAndDisplayImages();
   scrollPage();
